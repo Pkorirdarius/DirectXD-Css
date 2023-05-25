@@ -1,0 +1,66 @@
+@import url("https://fonts.googleapis.com/css2?");
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-size: 2rem;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+/* Disply in css */
+ul {
+  list-style-type: none;
+  text-align: right;
+  padding: 2rem;
+  background-color: black;
+}
+li {
+  display: inline-block;
+  margin-inline: 0.5rem;
+}
+a {
+  text-decoration: none;
+  color: white;
+}
+ul a:hover,
+ul a:focus {
+  text-decoration: underline;
+  color: blue;
+}
+/* float */
+.float {
+  width: 20vw;
+  height: 20vw;
+  border-radius: 2rem;
+  background-color: black;
+  color: white;
+  padding: 1rem;
+}
+.left {
+  float: left;
+  margin-right: 1rem;
+  align-content: start;
+}
+
+.right {
+  float: right;
+  margin-left: 1rem;
+  align-content: end;
+}
+.clear {
+  clear: both;
+}
+
+section {
+  background-color: bisque;
+  border: 1px solid #333;
+  padding: 1rem;
+  display: flow-root;
+  /* Columns */
+}
+.columns {
+  columns: 4 250px;
+  column-rule: 3px solid #333;
+  column-gap: 2rem;
+}
